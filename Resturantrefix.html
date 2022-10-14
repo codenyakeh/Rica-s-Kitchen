@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Resturantrefix.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <title>project</title>
+</head>
+<body>
+    <!--header-->
+    <input type="checkbox" id="cart">
+    <label for="cart" class="label-cart"><span class="shopping-cart"><img src="images/heart_32px.png"></span></label>
+    <h3 class="logo">R  I  C  A ' S    F  O  O  D    S  E  R  V  I  C  E  S</h3>
+
+    <!--sidebar-->
+    <div class="sidebar">
+        <div class="sidebar-menu">
+            <span class="fas fa-search"><img src="images/search" alt=""></span>
+            <a href="#">Search</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-home"><img src="images/home_24px.png" alt=""></span>
+            <a href="#">Home</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-heart"><img src="images/heart_30px.png" alt=""></span>
+            <a href="#">Likes</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-user"><img src="images/user_24px.png" alt=""></span>
+            <a href="#">Profile</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-sliders-h"><img src="images/slider_24px.png" alt=""></span>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+
+
+    <!--main dashboard-->
+    <div class="dashboard">
+        <div class="dashboard-banner">
+            <img src="images/Acheke.jpg">
+            <div class="banner-promo">
+                <h1 class="aq"><span>50% OFF</span><br>
+                Tasty Food<br>On Your Hand</h1>
+            </div>
+        </div>
+        <h3 class="dashboard-title">Recommended Food For You</h3>
+        <div class="dashboard-menu">
+            <a href="#">Favourites</a>
+            <a href="#">Best Seller</a>
+            <a href="#">Near Me</a>
+            <a href="#">Promotions</a>
+            <a href="#">Top Rateds</a>
+            <a href="#">All</a>
+        </div>
+        <div class="dashboard-content">
+            <div class="dashboard-card">
+              <img class="card-image" src="images/a3.jpg">
+              <div class="card-detail">
+                  <h4>Amazing Pizzas    <span class="CD">D200-D400</span></h4>
+                  <p>Small / Medium / large</p>
+                  <p class="card-time"><span class="fas fa-clock"><img src="images/clock_24px.png" alt=""></span>15:30mins</p>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <img class="card-image" src="images/ground.jpg">
+                <div class="card-detail">
+                    <h4>Groundnut Stew    <span class="CD">D75 - D150 </span></h4>
+                    <p>Per Plate</p>
+                    <p class="card-time"><span class="fas fa-clock"><img src="images/clock_24px.png" alt=""></span>15:30mins</p>
+                  </div>
+              </div>
+              <div class="dashboard-card">
+                <img class="card-image" src="images/potato-leaf-36-4.jpg">
+                <div class="card-detail">
+                    <h4>Potato Leaf Plasas    <span class="CD">D75-D150</span></h4>
+                    <p>Per Plate</p>
+                    <p class="card-time"><span class="fas fa-clock"><img src="images/clock_24px.png" alt=""></span>15:30mins</p>
+                  </div>
+              </div>
+        </div>
+        <div class="dashboard-content">
+            <div class="dashboard-card">
+                <img class="card-image" src="images/Afra.jpg">
+                <div class="card-detail">
+                    <h4>Well done steak(Afra)    <span class="CD"> D75 - D200</span></h4>
+                    <p>Fish(Grill Fish) / Chicken / Pork / Goat /</p>
+                    <p class="card-time"><span class="fas fa-clock"><img src="images/clock_24px.png" alt=""></span>15:30mins</p>
+                  </div>
+              </div>
+              <div class="dashboard-card">
+                <img class="card-image" src="images/Benachin_Rice.jpg">
+                <div class="card-detail">
+                    <h4>Benachine / Jollof    <span class="CD">D150 - D200</span></h4>
+                    <p>Assorted / Original</p>
+                    <p class="card-time"><span class="fas fa-clock"><img src="images/clock_24px.png" alt=""></span>15:30mins</p>
+                  </div>
+              </div>
+              <div class="dashboard-card">
+                <img class="card-image" src="images/Acheke.jpg">
+                <div class="card-detail">
+                    <h4>Acheke    <span class="CD">D75 - D150</span></h4>
+                    <p>Simple / Mixed(Chicken / Meat / Fish / Pork)</p>
+                    <p class="card-time"><span class="fas fa-clock"><img src="images/clock_24px.png" alt=""></span>15:30mins</p>
+                  </div>
+              </div>
+        </div>
+    </div>
+
+
+    <!--order dashboard-->
+    <div class="dashboard-order">
+
+        <h3>Order Menu</h3>
+        <div class="order-address">
+            <p class="OD">Address Delivery</p>
+            <h4>221 B Baker Street, London</h4>
+        </div>
+        <div class="order-time">
+            <span><img src="images/clock_24px.png" class="OT"></span>30 mins <span><img src="images/marker_24px.png" class="OTT"></span>2 km
+        </div>
+        <div class="order-wrapper">
+            <div class="order-card">
+                <img class="order-image" src="images/a3.jpg">
+                <div class="order-detail">
+                    <p class="DO">Pizza (large)</p>
+                    <i class="times"><img src="images/delete_16px.png"></i><input type="text" value="1">
+                </div>
+                <h4 class="order-price">D500</h4>
+            </div>
+            <div class="order-card">
+                <img class="order-image" src="images/Acheke.jpg">
+                <div class="order-detail">
+                    <p class="DO">Acheke</p>
+                    <i class="times"><img src="images/delete_16px.png"></i><input type="text" value="1">
+                </div>
+                <h4 class="order-price">D100</h4>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="order-total">
+            <p>Subtotal<span>D600</span></p>
+            <p>Tax (10%) <span>D15.6</span></p>
+            <p>Delivery Fee <span>D3</span></p>
+
+            <div class="order-promo">
+                <input class="input-promo" type="text" placeholder="Apply Voucher">
+                <button class="button-promo">Find Promo</button>
+            </div>
+            <hr class="divider">
+            <p>Total <span>D630</span></p>
+        </div>
+        <button class="checkout">
+            Checkout
+        </button>
+    </div>
+
+
+</body>
+</html>
